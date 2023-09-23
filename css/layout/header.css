@@ -1,3 +1,54 @@
+.menu-list {
+    display: none;
+}
+
+.contacts-link-li {
+    display: none;
+}
+
+.header {
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+}
+
+.logo-web {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0, 03em;
+    text-transform: uppercase;
+    color: var(--iris, #4D5AE5);
+    text-transform: uppercase;
+}
+
+.title-studio {
+    color: #2E2F42;
+}
+
+.open-mobile-menu-btn {
+    border: none;
+    background: transparent;
+    padding: 0;
+    line-height: 0;
+    float: right;
+    padding-left: 149px;
+}
+
+.open-mobile-menu-icon {
+    fill: #2F2F37;
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
 /* .header {
     background: var(--white, #FFF);
     border-bottom: 1px solid #e7e9fc;
