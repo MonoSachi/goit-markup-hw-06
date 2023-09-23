@@ -18,3 +18,9 @@ ol {
     margin: 0;
     padding-left: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
