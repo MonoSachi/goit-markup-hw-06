@@ -1,0 +1,140 @@
+ .mobile-menu {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #F4F4FD;
+     z-index: 99999999;
+     transform: translateX(100%);
+     transition: transform 250ms ease-out;
+
+
+     /* opacity: 0;
+    visibility: hidden;
+    pointer-events: none; */
+ }
+
+ .mobile-menu.is-open {
+     transform: translateX(0%);
+     /* opacity: 1;
+     visibility: visible;
+     pointer-events: auto; */
+ }
+
+ .div-modal-mobile {
+     margin-left: 16px;
+     margin-right: 16px;
+ }
+
+ .button-modal-mobile {
+     position: absolute;
+     top: 32px;
+     right: 32px;
+     border: none;
+     background: transparent;
+     padding: 0;
+     line-height: 0;
+ }
+
+ .button-close-mobile {
+     fill: #2E2F42;
+ }
+
+ .menu-list-mobile {
+     margin-top: 72px;
+
+ }
+
+ .menu-item-li-mobile {}
+
+ .menu-link-mobile {
+     color: #2E2F42;
+
+     font-family: Roboto;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 1.1;
+
+     letter-spacing: 0.72px;
+     display: block;
+     text-transform: capitalize;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     position: relative;
+     color: #404bbf;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .link {
+     text-decoration: none;
+ }
+
+ .link-mobile-studio::after {
+     width: 48px;
+     height: 4px;
+     border-radius: 2px;
+     background: #404BBF;
+
+ }
+
+ .link-mobile-portfolio {
+     color: #2E2F42;
+ }
+
+ .link-mobile-contacts {
+     color: #2E2F42;
+ }
+
+ .contacts-mail-tel-mobile {
+     margin-top: 168px;
+     margin-bottom: 48px;
+ }
+
+ .contacts-link-li-mobile {}
+
+ .contacts-link-mobile {
+     font-family: Roboto;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.4px;
+     text-decoration: none;
+
+ }
+
+ .link-mobile-mail {
+     color: #434455;
+ }
+
+ .link-mobile-tel {
+     color: #4D5AE5;
+     padding-top: 24px;
+ }
+
+
+ .warp-list-mobile {}
+
+ .warp-icons-mobile {
+     margin-top: 48px;
+ }
+
+ .list-icons-mobile {
+     width: 40px;
+     height: 40px;
+     color: #F4F4FD;
+ }
+
+ /* 
+ .link-icons-mobile {
+     width: 100%;
+     height: 100%;
+     background-color: #4d5ae5;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ } */
