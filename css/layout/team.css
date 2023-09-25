@@ -12,13 +12,12 @@
 
 .warp-list {
     display: flex;
-    width: 264px;
+    width: 100%;
     height: auto;
     padding-bottom: 0px;
-    flex-direction: column;
+    gap: 24px;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 32px;
 
 }
 
@@ -28,7 +27,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    margin: 32px;
 }
 
 
@@ -68,11 +67,8 @@
     display: flex;
     padding-bottom: 0px;
     flex-direction: column;
-    ;
     align-items: center;
     gap: 32px;
-
-
 
 }
 
@@ -123,10 +119,12 @@
 
     .warp-list {
         display: flex;
-        width: 264px;
         height: auto;
         padding-bottom: 0px;
-        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
 
     }
 
@@ -170,11 +168,11 @@
     }
 
     .target-li-warp {
+        width: 260px;
         display: flex;
         border-radius: 0px 0px 4px 4px;
         justify-content: center;
-        align-items: flex-start;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
 
     }
@@ -270,7 +268,7 @@
     }
 
     .target-li-warp {
-        /* width: calc((100% - 72px) / 4); */
+        width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
 
     }

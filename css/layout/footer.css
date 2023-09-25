@@ -61,6 +61,7 @@
 .social-links {
     display: flex;
     gap: 16px;
+    margin-bottom: 72px;
 }
 
 .social-links-li {
@@ -106,6 +107,7 @@
 .mail-sub {
     display: flex;
     gap: 24px;
+    flex-direction: column;
 }
 
 .mail-label {}
@@ -263,6 +265,7 @@
     }
 
     .title-subscribe {
+
         margin-top: 72px;
         margin-bottom: 16px;
         font-weight: 500;
@@ -275,6 +278,7 @@
     .mail-sub {
         display: flex;
         gap: 24px;
+        flex-direction: row;
     }
 
     .mail-label {}
