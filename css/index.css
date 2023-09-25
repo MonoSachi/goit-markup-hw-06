@@ -6,3 +6,7 @@
 @import './base/mobile-menu.css';
 @import './base/div-backdrop.css';
 @import './base/effective-button.css';
+@import './layout/section-content-list.css';
+@import './layout/team.css';
+@import './layout/portfolio.css';
+@import './layout/footer.css';

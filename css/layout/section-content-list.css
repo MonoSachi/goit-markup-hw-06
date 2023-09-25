@@ -1,50 +1,210 @@
 .section-content-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
+
+.container-visually-hidden {}
+
 
 
 .content-list {
-    display: flex;
-    gap: 24px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+
 }
 
 .target {
-    color: var(--navyblue, #2E2F42);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-
-
+    /* color: var(--navyblue, #2E2F42);
+    font-size: 36px;
+    font-weight: 700;
+    align-self: center;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize; */
 }
 
 .target-li {
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
+
+
 }
 
 .icon-advantages {
-    display: none;
+    /* display: none;
     align-items: center;
     justify-content: center;
     height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 8px; */
 }
 
-.icon-advantages:not(svg) {
+.icons-none {
     display: none;
 }
 
 .list-title {
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
+
+
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+    /* margin-bottom: 8px;
+    display: inline-flex;
+    gap: 72px; */
+
+}
+
+.text-target-li {
+    padding-bottom: 72px;
+
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+    /* align-self: stretch;
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px; */
 }
 
 
+@media screen and (min-width: 768px) {
 
-@media screen and (min-width: 768px) {}
+    .container-visually-hidden {}
 
-@media screen and (min-width: 1158px) {}
+
+
+    .content-list {
+        display: flex;
+        width: 768px;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .target-li {
+        width: calc((100% - 24px) / 2);
+    }
+
+
+
+    .icons-none {
+        display: none;
+    }
+
+    .list-title {
+
+
+        color: #2E2F42;
+        text-align: justify;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        padding-bottom: 8px;
+
+
+    }
+
+    .text-target-li {
+        padding-bottom: 72px;
+
+        color: var(--SLATE, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+
+    }
+}
+
+@media screen and (min-width: 1158px) {
+
+    .section-content-list {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .container-visually-hidden {}
+
+
+
+    .content-list {
+
+        display: flex;
+        gap: 24px;
+        flex-direction: row;
+        display: inline-flex;
+        align-self: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .target {
+        color: var(--navyblue, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+    }
+
+    .target-li {
+        width: calc((100% - 72px) / 4);
+
+    }
+
+    .icon-advantages {
+        display: flex;
+        width: 264px;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+
+
+
+    }
+
+    .icons-none {
+        display: flex;
+
+    }
+
+    .list-title {
+        margin-bottom: 8px;
+        width: 264px;
+    }
+
+    .text {
+        width: 264px;
+        height: 72px;
+    }
+
+}
