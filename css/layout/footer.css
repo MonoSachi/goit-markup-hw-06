@@ -7,11 +7,6 @@
 
 .div-logo-down {}
 
-.link-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-
-}
 
 .logo-down {
     color: var(--iris, #4D5AE5);
@@ -45,7 +40,7 @@
 }
 
 .text-footer {
-    width: 320px;
+    width: 100%;
 }
 
 .social-media {
@@ -171,14 +166,15 @@
         flex-wrap: wrap;
         align-content: center;
         justify-content: flex-start;
+        padding-left: 108px;
     }
 
     .div-logo-down {
-        margin-right: 120px;
+        margin-right: 24px;
     }
 
     .link-logo {
-        display: inline-block;
+        display: flex;
         margin-bottom: 16px;
 
     }
@@ -260,10 +256,6 @@
         fill: #f4f4fd;
     }
 
-    .div-subscribe {
-        margin-left: 80px;
-    }
-
     .title-subscribe {
 
         margin-top: 72px;
@@ -340,18 +332,13 @@
     }
 
     .div-footer {
+        padding-left: 0;
         display: flex;
         align-items: baseline;
     }
 
     .div-logo-down {
         margin-right: 120px;
-    }
-
-    .link-logo {
-        display: inline-block;
-        margin-bottom: 16px;
-
     }
 
     .logo-down {
