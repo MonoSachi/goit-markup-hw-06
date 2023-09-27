@@ -57,6 +57,7 @@
     display: flex;
     gap: 16px;
     margin-bottom: 72px;
+
 }
 
 .social-links-li {
@@ -160,12 +161,12 @@
     }
 
     .div-footer {
+        row-gap: 72px;
         display: flex;
         align-items: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
-        justify-content: flex-start;
         padding-left: 108px;
     }
 
@@ -225,6 +226,7 @@
     .social-links {
         display: flex;
         gap: 16px;
+        margin-bottom: 0;
     }
 
     .social-links-li {
@@ -258,7 +260,7 @@
 
     .title-subscribe {
 
-        margin-top: 72px;
+
         margin-bottom: 16px;
         font-weight: 500;
         font-size: 16px;

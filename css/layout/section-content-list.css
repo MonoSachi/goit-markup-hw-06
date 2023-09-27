@@ -24,20 +24,20 @@
     text-transform: capitalize; */
 }
 
-.target-li {
-    /* width: calc((100% - 72px) / 4); */
 
-
+.target-li:not(:last-child) {
+    margin-bottom: 72px;
 }
 
+
 .icon-advantages {
-    /* display: none;
+    display: none;
     align-items: center;
     justify-content: center;
     height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
-    margin-bottom: 8px; */
+    margin-bottom: 8px;
 }
 
 .icons-none {
@@ -56,15 +56,12 @@
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-bottom: 8px;
-    /* margin-bottom: 8px;
-    display: inline-flex;
-    gap: 72px; */
+    margin-bottom: 8px;
 
 }
 
 .text-target-li {
-    padding-bottom: 72px;
+
 
     color: var(--SLATE, #434455);
     font-family: Roboto;
@@ -73,15 +70,6 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-
-    /* align-self: stretch;
-    color: var(--SLATE, #434455);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px; */
 }
 
 
@@ -123,23 +111,12 @@
         line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 
 
     }
 
-    .text-target-li {
-        padding-bottom: 72px;
-
-        color: var(--SLATE, #434455);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-
-    }
+    .text-target-li {}
 }
 
 @media screen and (min-width: 1158px) {
@@ -179,16 +156,6 @@
 
     .icon-advantages {
         display: flex;
-        width: 264px;
-        height: 112px;
-        background-color: #f4f4fd;
-        border-radius: 4px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-
-
 
     }
 
@@ -205,6 +172,12 @@
     .text {
         width: 264px;
         height: 72px;
+    }
+
+    .text-target-li {
+
+        font-weight: 400;
+
     }
 
 }
