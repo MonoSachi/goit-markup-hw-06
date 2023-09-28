@@ -5,10 +5,18 @@
 
 .div-footer {}
 
-.div-logo-down {}
+.div-logo-down {
+    margin-bottom: 72px;
+}
 
+
+.link-logo {
+    display: inline-block;
+}
 
 .logo-down {
+    display: block;
+    text-align: center;
     color: var(--iris, #4D5AE5);
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -17,6 +25,7 @@
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-bottom: 17.5px;
 }
 
 .title-studio-down {
@@ -44,11 +53,13 @@
 }
 
 .social-media {
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
     margin-bottom: 16px;
 
 }
@@ -56,7 +67,8 @@
 .social-links {
     display: flex;
     gap: 16px;
-    margin-bottom: 72px;
+    justify-content: center;
+
 
 }
 
@@ -89,9 +101,13 @@
     fill: #f4f4fd;
 }
 
-.div-subscribe {}
+.div-subscribe {
+    margin-top: 72px;
+}
 
 .title-subscribe {
+    text-align: center;
+
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -109,6 +125,7 @@
 .mail-label {}
 
 .e-mail {
+    padding: 8px 236px 8px 16px;
     width: 288px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -127,7 +144,9 @@
 
 
 .button-footer {
-    min-width: 165px;
+    margin: 0 78px 0 77px;
+    gap: 16px;
+    width: 165px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -161,13 +180,15 @@
     }
 
     .div-footer {
+        max-width: 584px;
         row-gap: 72px;
         display: flex;
         align-items: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        align-content: center;
-        padding-left: 108px;
+
+        align-items: baseline;
+
     }
 
     .div-logo-down {
@@ -175,7 +196,7 @@
     }
 
     .link-logo {
-        display: flex;
+
         margin-bottom: 16px;
 
     }
@@ -259,6 +280,7 @@
     }
 
     .title-subscribe {
+        text-align: left;
 
 
         margin-bottom: 16px;
@@ -278,6 +300,7 @@
     .mail-label {}
 
     .e-mail {
+        padding: 0;
         width: 264px;
         height: 40px;
         border: 1px solid #ffffff;
@@ -297,6 +320,8 @@
 
 
     .button-footer {
+        margin: 0;
+        gap: 0;
         min-width: 165px;
         height: 40px;
         display: flex;
@@ -334,6 +359,7 @@
     }
 
     .div-footer {
+        max-width: 1440px;
         padding-left: 0;
         display: flex;
         align-items: baseline;
@@ -343,7 +369,10 @@
         margin-right: 120px;
     }
 
+    .link-logo {}
+
     .logo-down {
+        text-align: left;
         color: var(--iris, #4D5AE5);
         font-family: Raleway, sans-serif;
         font-size: 18px;
@@ -377,6 +406,7 @@
     }
 
     .social-media {
+        text-align: left;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;

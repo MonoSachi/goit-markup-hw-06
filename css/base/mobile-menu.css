@@ -1,4 +1,6 @@
  .mobile-menu {
+
+     padding: 72px 24px 40px 16px;
      position: fixed;
      top: 0;
      left: 0;
@@ -43,10 +45,7 @@
      fill: #2E2F42;
  }
 
- .menu-list-mobile {
-     padding: 72px 259px 168px 16px;
-
- }
+ .menu-list-mobile {}
 
  .menu-list-mobile li:not(:last-child) {
      margin-bottom: 40px;
@@ -109,10 +108,12 @@
  }
 
  .link-mobile-studio {
-     color: #2E2F42;
+     color: var(--OCEAN, #404BBF);
  }
 
- .contacts-mail-tel-mobile {}
+ .contacts-mail-tel-mobile {
+     display: flex;
+ }
 
  .contacts-link-li-mobile {}
 
@@ -135,14 +136,16 @@
      color: #434455;
  }
 
- .link-mobile-tel {}
+ .link-mobile-tel {
+     color: var(--IRIS, #4D5AE5);
+ }
 
 
  .warp-list-mobile {}
 
  .warp-icons-mobile {
-     padding-top: 48px;
-     display: inline-flex;
+
+     display: flex;
 
  }
 

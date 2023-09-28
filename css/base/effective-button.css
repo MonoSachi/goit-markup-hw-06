@@ -1,12 +1,12 @@
 .effective-button {
     background: var(--navyblue, #2E2F42);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office_mobile.jpg);
-    max-width: 100%;
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 72px;
+    padding-bottom: 72px;
 
 }
 
@@ -24,7 +24,7 @@
 
 .effective-title {
     margin-bottom: 48px;
-    max-width: 288px;
+    max-width: 240px;
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -74,6 +74,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        padding: 112px 0;
     }
 
 
@@ -89,6 +90,7 @@
     }
 
     .effective-title {
+        margin-bottom: 36px;
 
         max-width: 496px;
         margin-left: 120px;
