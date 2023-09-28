@@ -1,7 +1,7 @@
 .effective-button {
     background: var(--navyblue, #2E2F42);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office_mobile.jpg);
-    max-width: 1440px;
+    max-width: 320px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -69,6 +69,7 @@
 
 @media screen and (min-width: 768px) {
     .effective-button {
+        max-width: 768px;
         background: var(--navyblue, #2E2F42);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office_tablet.jpg);
         background-repeat: no-repeat;
@@ -101,6 +102,7 @@
 
 @media screen and (min-width: 1158px) {
     .effective-button {
+        min-width: 1700px;
         background: var(--navyblue, #2E2F42);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/people-office.jpg);
         background-repeat: no-repeat;
