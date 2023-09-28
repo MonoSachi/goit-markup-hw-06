@@ -1,4 +1,6 @@
  .mobile-menu {
+     display: flex;
+     flex-direction: column;
 
      padding: 72px 24px 40px 16px;
      position: fixed;
@@ -17,6 +19,14 @@
     visibility: hidden;
     pointer-events: none; */
  }
+
+ .contact-icon {
+     display: flex;
+     flex-direction: column;
+     margin-top: auto;
+     gap: 48px;
+ }
+
 
  .mobile-menu.is-open {
      transform: translateX(0%);
@@ -141,10 +151,12 @@
  }
 
 
- .warp-list-mobile {}
+ .warp-list-mobile {
+     gap: 40px;
+ }
 
  .warp-icons-mobile {
-
+     gap: 40px;
      display: flex;
 
  }
@@ -156,9 +168,7 @@
      color: #F4F4FD;
  }
 
- .list-icons-mobile:not(:last-child) {
-     margin-right: 40px;
- }
+ .list-icons-mobile:not(:last-child) {}
 
 
  .link-icons-mobile {
